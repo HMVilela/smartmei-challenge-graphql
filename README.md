@@ -1,0 +1,1 @@
+# smartmei-challenge-graphql
