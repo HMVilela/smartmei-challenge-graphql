@@ -1,0 +1,19 @@
+{
+  "name": "smartmei-backend-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "Henrique Martins Vilela",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "mocha": "^8.2.0"
+  }
+}
