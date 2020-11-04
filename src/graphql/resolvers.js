@@ -3,9 +3,9 @@ const exchange = require('../controllers/exchange.controller');
 
 const resolvers = {
     Query: {
-      async taxConsult(_, url) {
+      async transferTaxConsult(_, url) {
         const transferInfo = await crawler.getTransferTax(url);
-        const exchangeMultipliers = await exchange.getExchangeMultipliers();
+        const exchangeMultipliers = await exchange.getRates();
 
         return {
           description: transferInfo.description,

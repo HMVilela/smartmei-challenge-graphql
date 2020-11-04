@@ -3,7 +3,7 @@ const { gql } = require("apollo-server");
 const typeDefs = gql`
   scalar IsoDate
 
-  type TaxConsult {
+  type TransferTaxConsult {
     description: String
     valueBRL: Float
     valueUSD: Float
@@ -12,7 +12,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    taxConsult(url: String!): TaxConsult
+    transferTaxConsult(url: String!): TransferTaxConsult
   }
 `;
 
