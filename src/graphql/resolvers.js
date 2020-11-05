@@ -1,6 +1,8 @@
 const crawler = require('../controllers/crawler.controller');
 const exchange = require('../controllers/exchange.controller');
 
+// GraphQL query for Transfer Tax Consulting.
+// It executes the crawler and exchange rates request and return the query response
 const resolvers = {
     Query: {
       async transferTaxConsult(_, url) {

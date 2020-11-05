@@ -4,6 +4,7 @@ const nock = require('nock');
 const exchange = require('../../src/controllers/exchange.controller');
 const response = require('./exchange-rates.mock');
 
+// Test and compare if Exchange Rates API is returning correct data for module
 describe('Get exchange rates test', () => {
   beforeEach(() => {
     nock('https://api.exchangeratesapi.io')

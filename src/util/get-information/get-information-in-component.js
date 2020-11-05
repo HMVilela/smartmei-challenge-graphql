@@ -19,6 +19,7 @@ const getDescriptionText = (descriptionTable, $) => {
     return descriptionText
 }
 
+// Receive a HTML to crawl and search for specific HTML tag selector to extract data
 exports.getInformation = (html) => {
     const $ = cheerio.load(html);
     const taxTable = $('#planos-e-tarifas > div > div > div > div > #tarifas-2 > div:nth-child(3)');

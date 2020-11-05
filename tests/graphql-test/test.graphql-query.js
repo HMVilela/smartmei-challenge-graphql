@@ -6,9 +6,9 @@ const {
     resolvers
   } = require("../../src/server.js");
 
+  // Test and compare if GraphQL service is returnig correct data on querys
   describe("GraphQL Test", function () {
-    let tester;
-    // Easy GraphQL Tester
+    let tester;    
     tester = new EasyGraphQLTester(typeDefs, resolvers); 
   
     describe("TransferTaxConsult Query", function () {

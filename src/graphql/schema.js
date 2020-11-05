@@ -1,5 +1,6 @@
 const { gql } = require("apollo-server");
 
+// GraphQL schema defined for the app scope
 const typeDefs = gql`
   scalar IsoDate
 
