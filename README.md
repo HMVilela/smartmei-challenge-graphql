@@ -14,7 +14,8 @@ O serviço implementa um "crawler" para buscar estes dados no site da Smart MEI 
 
 . Navegar para `http://localhost:4000/`, onde o playground GraphQL estará rodando.
 . A Query para se usar o serviço deve seguir o modelo com, além do URL do site da Smart MEI, pelo menos um dos parâmetros a seguir:
- `{
+ ```
+ {
   transferTaxConsult(url: "https://www.smartmei.com.br") {
     description
     valueBRL
@@ -22,7 +23,8 @@ O serviço implementa um "crawler" para buscar estes dados no site da Smart MEI 
     valueEUR
     date
   }
-}`
+}
+```
 
 
 ## Considerações
