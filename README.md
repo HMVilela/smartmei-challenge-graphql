@@ -32,6 +32,7 @@ O serviço implementa um "crawler" para buscar estes dados no site da Smart MEI 
 - Este é meu primeiro contato com GraphQL. Busquei entender seu conceito e implementar as boas práticas para eficiência e boa leitura do código.
 - A aplicação usa o "Apollo Server", uma biblioteca NodeJS que implementa o GraphQL e pode ser facilmente usado com outras tecnologias como "Express" por exemplo, que permitiria o uso de hooks e a possibilidade de termos endpoints RESTful em nossa aplicação.
 - Testes feitos com o uso do "Mocha" e "Chai". O primeiro, usado para a construção dos testes e, o segundo, dispondo de ferramentas de validações e comparações de dados no ambiente NodeJS
+- Não entendi o requisito "descricao da tarifa (como está no site da smartmei)", pois não percebi nenhuma descrição junto ao valor da taxa. Sendo assim, assumi um outro valor que considerei que atenda ao requisito, também do site da Smart MEI.
 
 ## Escopo original do desafio
 
